@@ -1,0 +1,58 @@
+#root, html, body{
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-color {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: darkgray;
+  color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  transition: .3s all;
+}
+
+button:hover {
+  background-color: dimgray;
+  color: white;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
